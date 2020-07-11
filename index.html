@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div>
+            <h1>STOP WATCH</h1>
+        </div>
+        <div class="watch">
+            <div class="number"> 
+                Min 
+            </div>
+            <div class="number">
+                Sec
+            </div>
+            <div class="number">
+                M.Sec
+            </div>
+        </div>    
+
+        <div class="watch">
+            <div id="Min" class="number"> 
+                00
+            </div>
+            <div id="Sec" class="number">
+                00
+            </div>
+            <div id="Msec" class="number">
+                00
+            </div>
+        </div>    
+        
+        <div class="button">
+            <div>
+                <button onclick="start()" class="abc">
+                    Start 
+                </button>
+            </div>
+            <div>
+                <button onclick="pause()" class="abc">
+                    Pause
+                </button>
+            </div>
+            <div>
+                <button onclick="stop()" class="abc">
+                    Stop   
+                </button>
+            </div>            
+        </div>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    /* margin: 0 auto;      */
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+.main{
+    /* text-align: center; */
+
+    background-color: blue;
+    border-radius: 15px;
+    width: 500px;
+    padding: 25px;
+    
+}
+
+.watch{
+    background-color: chartreuse;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.number{
+    /* border-top: none; */
+    padding: 30px;
+    border: 2px solid black;
+    width: 100%;
+    font-size: 2em;
+}
+
+.button{
+    display: flex;   
+    flex-direction: row;
+    padding: 30px;
+
+}
+
+.abc{
+    background-color: chartreuse;
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+    width: 120px;
+}
+
+.button img{
+    padding: 25px;
+    width: 100px;
+}
